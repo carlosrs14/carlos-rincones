@@ -14,7 +14,7 @@ a {
 /* Navbar fijo */
 nav {
     background-color: #333;
-    padding: 15px;
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -145,5 +145,4 @@ footer {
     background-color: #333;
     color: white;
     padding: 15px;
-    width: 100%;
 }
