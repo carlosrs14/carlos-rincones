@@ -1,19 +1,23 @@
-/* Generales */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #0F172A;
+    color: #E2E8F0;
 }
 
 a {
     text-decoration: none;
+    color: #E2E8F0;
 }
 
-/* Navbar fijo */
+a:hover {
+    color: #22D3EE;
+}
+
 nav {
-    background-color: #333;
+    background-color: #1E293B;
     padding: 20px;
     position: fixed;
     top: 0;
@@ -34,52 +38,64 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #E2E8F0;
     font-size: 18px;
     font-weight: bold;
 }
 
-/* Espaciado para evitar que el navbar tape el contenido */
 body {
     padding-top: 60px;
 }
 
-/* mifoto */
 #mi-foto {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    border: 5px solid #22D3EE;
 }
-/* Secciones */
+
+.about-me {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #E2E8F0;
+    background-color: #1E293B;
+    padding: 1rem 1.5rem;
+    border-left: 5px solid #22D3EE;
+    border-radius: 8px;
+    max-width: 700px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
 section {
     padding: 50px 20px;
 }
 
 h1, h2 {
-    color: #333;
+    color: #F1F5F9;
 }
 
-/* Redes Sociales */
 .social-icons {
     margin-top: 20px;
 }
 
 .social-icons a {
-    color: #333;
+    color: #E2E8F0;
     font-size: 30px;
     margin: 10px;
     transition: 0.3s;
 }
 
 .social-icons a:hover {
-    color: #007bff;
+    color: #22D3EE;
 }
 
-/* Skills */
 #skills section {
     display: flex;
     justify-content: center;
 }
+
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -89,8 +105,8 @@ h1, h2 {
 }
 
 .skill {
-    background: #333;
-    color: white;
+    background: #1E293B;
+    color: #E2E8F0;
     padding: 15px 20px;
     border-radius: 8px;
     font-size: 18px;
@@ -99,23 +115,24 @@ h1, h2 {
     gap: 10px;
     transition: 0.3s;
 }
+
 .skill a {
     display: flex;
     align-items: center;
-    color: white;
     text-decoration: none;
 }
+
 .skill i {
     font-size: 24px;
 }
 
 .skill:hover {
-    background: #007bff;
+    background: #334155;
+    color: #45C4B0;
 }
 
-/* Proyectos */
 .project {
-    background: white;
+    background: #1E293B;
     padding: 20px;
     margin: 10px auto;
     width: 80%;
@@ -124,14 +141,30 @@ h1, h2 {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Estudios */
+.project-links {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
 
-#educations a {
-    color: #333;
+.project-links a {
+    background-color: #13678A;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.project-links a:hover {
+    background-color: #22D3EE;
 }
 
 .education {
-    background: white;
+    background: #1E293B;
     padding: 20px;
     margin: 10px auto;
     width: 80%;
@@ -140,9 +173,8 @@ h1, h2 {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #334155;
+    color: #E2E8F0;
     padding: 15px;
 }

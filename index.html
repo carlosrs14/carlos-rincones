@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <title>My Portafolio</title>
+    <title>Carlos R</title>
 </head>
 <body>
 
-    <!-- Navbar -->
     <header>
         <nav>
             <ul>
@@ -21,84 +20,180 @@
         </nav>
     </header>
 
-    <!-- Sección Home -->
     <section id="home">
         <img id="mi-foto" src="assets/carlos.jpeg" alt="Carlos R">
-        <h1>Hola, soy Carlos R</h1>
-        <p>Desarrollador back-end</p>
+        <h1>Hola, soy Carlos Rincones</h1>
+        <p class="about-me">
+            Soy estudiante de Ingeniería de Sistemas y de la Tecnología en Desarrollo de Software, 
+            con un enfoque integral en el diseño, desarrollo y mantenimiento de soluciones de software. 
+            Mi formación académica me ha permitido desarrollar competencias sólidas tanto en los fundamentos teóricos de la ingeniería 
+            como en las habilidades prácticas necesarias para abordar proyectos tecnológicos desde su diseño hasta su implementación. 
+            <br><br>
+            A lo largo de mi formación he adquirido experiencia en programación, bases de datos, desarrollo de aplicaciones web y móviles, 
+            implementando buenas prácticas de desarrollo. Me especializo en el backend y en la construcción de APIs robustas y seguras, 
+            así como en el uso de frameworks modernos como Django + Django Restframework, Laravel para el back-end y Angular para el front-end y 
+            herramientas como PostgreSQL, MySQL, Git y Docker.
+            <br><br>
+            Me considero una persona comprometida, autodidacta y orientada a resultados, con gran interés en participar en proyectos colaborativos 
+            y aportar al crecimiento de los equipos y organizaciones con los que trabajo.
+        </p>
         <div class="social-icons">
-            <a href="https://github.com/carlosrs14" target="_blank"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/carlos-rincones/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://github.com/carlosrs14" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-rincones/" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
         </div>
     </section>
 
-    <!-- Sección Skills -->
     <section id="skills">
         <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill">
-                <a href="https://www.python.org/" target="_blank"><i class="bi bi-filetype-py"></i><p> Python</p></a>
+                <a href="https://www.python.org/" target="_blank">
+                    <i class="bi bi-filetype-py"></i>
+                    <p> Python</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://www.java.com/es/" target="_blank"><i class="bi bi-filetype-java"></i><p> Java</p></a>
+                <a href="https://www.java.com/es/" target="_blank">
+                    <i class="bi bi-filetype-java"></i>
+                    <p> Java</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://es.wikipedia.org/wiki/C%2B%2B" target="_blank"><i class="bi bi-code-slash"></i><p> C++</p></a>
+                <a href="https://es.wikipedia.org/wiki/C%2B%2B" target="_blank">
+                    <i class="bi bi-code-slash"></i>
+                    <p> C++</p></a>
             </div>
             <div class="skill">
-                <a href="https://dart.dev/" target="_blank"><i class="bi bi-code-slash"></i><p> Dart</p></a>
+                <a href="https://dart.dev/" target="_blank">
+                    <i class="bi bi-code-slash"></i>
+                    <p> Dart</p></a>
             </div>
             <div class="skill">
-                <a href="https://www.djangoproject.com/" target="_blank"><i class="bi bi-cloud"></i><p>Django</p></a>
+                <a href="https://www.djangoproject.com/" target="_blank">
+                    <i class="bi bi-cloud"></i>
+                    <p>Django</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://www.django-rest-framework.org/" target="_blank"><i class="bi bi-rocket"></i><p> Django REST Framework</p></a>
+                <a href="https://www.django-rest-framework.org/" target="_blank">
+                    <i class="bi bi-rocket"></i>
+                    <p> Django REST Framework</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://flutter.dev/" target="_blank"><i class="bi bi-phone"></i><p>Flutter</p></a>
+                <a href="https://flutter.dev/" target="_blank">
+                    <i class="bi bi-phone"></i>
+                    <p>Flutter</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://www.mysql.com/" target="_blank"><i class="bi bi-database"></i><p> MySQL</p></a>
+                <a href="https://www.mysql.com/" target="_blank">
+                    <i class="bi bi-database"></i>
+                    <p> MySQL</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://www.postgresql.org/" target="_blank"><i class="bi bi-database"></i><p> PostgreSQL</p></a>
+                <a href="https://www.postgresql.org/" target="_blank">
+                    <i class="bi bi-database"></i><p> PostgreSQL</p>
+                </a>
             </div>
             <div class="skill">
-                <a href="https://www.djangoproject.com/" target="_blank"><i class="bi bi-git"></i><p>Git</p></a>
+                <a href="https://www.djangoproject.com/" target="_blank">
+                    <i class="bi bi-git"></i>
+                    <p>Git</p>
+                </a>
             </div>
         </div>
     </section>
     
-    <!-- Sección Projects -->
-    <section id="proyectos">
+    <section id="projects">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Project 1</h3>
-            <p>description</p>
+            <h3>Click2Book</h3>
+            <p>
+                Click2Book es una plataforma web para la reserva de alojamientos universitarios. 
+                El backend, desarrollado con Laravel y JWT para autenticación, gestiona usuarios diferenciados 
+                (administradores, propietarios y estudiantes). 
+                El frontend en Angular ofrece una interfaz fluida y moderna, permitiendo 
+                buscar, filtrar y reservar alojamientos de forma eficiente.
+            </p>
+            
+            <div class="project-links">
+                <a href="https://github.com/carlosrs14/Click2Book-be" target="_blank">🔧 Backend (Laravel)</a>
+                <a href="https://github.com/Rossy26/Click2Book-fe" target="_blank">💻 Frontend (Angular)</a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>Ride Now</h3>
+            <p>
+                Ride Now es una aplicación web de gestión de viajes compartidos (carpooling), 
+                cuyo backend está completamente implementado en Java puro con Servlets y JSP, sin frameworks, 
+                siguiendo una arquitectura de microservicios y cada uno de estos en mvc. El frontend, hecho en Angular, 
+                permite a los usuarios registrarse, publicar y buscar viajes, conectando conductores con pasajeros.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/carlosrs14/ride-now" target="_blank">🔧 Backend (Java Servlets)</a>
+                <a href="https://github.com/carlosrs14/RideNow-fe" target="_blank">💻 Frontend (Angular)</a>
+            </div>
+        </div>
+        <div class="project">
+            <h3>Bookly</h3>
+                <p>
+                    Bookly es una plataforma de reseñas y gestión de libros. 
+                    Utiliza Django REST Framework para exponer una API robusta con autenticación JWT. 
+                    El frontend en Angular permite a los usuarios registrarse, iniciar sesión y dejar reseñas de libros, 
+                    así como explorar libros por autor, género o popularidad. Es ideal para lectores apasionados y comunidades literarias.
+                </p>
+                <div class="project-links">
+                    <a href="https://github.com/carlosrs14/bookly-be" target="_blank">🔧 Backend (Django REST)</a>
+                    <a href="https://github.com/carlosrs14/bookly-fe" target="_blank">💻 Frontend (Angular)</a>
+                </div>
+        </div>
+        <div class="project">
+            <h3>VetCare</h3>
+            <p>
+                VetCare es una aplicación móvil desarrollada con MIT App Inventor, 
+                pensada para facilitar el control de citas veterinarias. 
+                Ofrece una interfaz sencilla e intuitiva para registrar mascotas, programar visitas, y llevar un historial básico de salud animal, 
+                ideal para clínicas pequeñas o dueños de mascotas que buscan una herramienta de seguimiento rápida y accesible.
+            </p>
+            <div class="project-links">
+                <a href="https://gallery.appinventor.mit.edu/?galleryid=9e4c0f3d-b96a-46fd-9ba7-74d81e59036c" target="_blank">
+                    📱 App (MIT App Inventor)
+                </a>
+            </div>
         </div>
     </section>
 
-    <!-- Sección Education -->
     <section id="educations">
         <h2>Educación</h2>
         <div class="education">
-            <a href="https://www.unimagdalena.edu.co/" target="_blank"><h3>Universidad del Magdalena</h3></a>
-            <h4>Ingeniería de sistemas</h4>
-            <p>Cursando</p>
+            <a href="https://www.unimagdalena.edu.co/" target="_blank">
+                <h3>Universidad del Magdalena</h3>
+                <h4>Ingeniería de sistemas</h4>
+                <p>Cursando</p>
+            </a>
         </div>
         <div class="education">
-            <a href="https://www.unad.edu.co/" target="_blank"><h3>Universidad nacional abierta y a distancia</h3></a>
-            <h4>Tecnología en desarrollo de software</h4>
-            <p>Cursando</p>
+            <a href="https://www.unad.edu.co/" target="_blank">
+                <h3>Universidad nacional abierta y a distancia</h3>
+                <h4>Tecnología en desarrollo de software</h4>
+                <p>Cursando</p>
+            </a>
         </div>
         <div class="education">
-            <a href="https://unal.edu.co/" target="_blank"><h3>Universidad nacional de Colombia (MinTic)</h3></a>
-            <h4>Formación en programación y desarrollo de software</h4>
-            <p>2021</p>
+            <a href="https://unal.edu.co/" target="_blank">
+                <h3>Universidad nacional de Colombia (MinTic)</h3>
+                <h4>Formación en programación y desarrollo de software</h4>
+                <p>2021</p>
+            </a>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>© 2025 Carlos R - Todos los derechos reservados.</p>
     </footer>
